@@ -75,7 +75,7 @@
           "tax-type": "Tax type"
         },
         "validations": {
-          "code": "Code can't contain $+;=%{}[]|\/@ ~#!^*&()?:'<>, characters"
+          "code": "Code can't contain $+;=%{}[]|\/@ ~!^*&()?:'<>, characters"
         },
         "placeholders": {
           "name": "Enter category name",
@@ -217,7 +217,6 @@
       },
 
       "item-detail": {
-        "title": "",
         "subtitle-variation": "Variation details",
         "labels": {
           "sku": "SKU",
@@ -234,7 +233,7 @@
           "download-type": "Download type"
         },
         "validations": {
-          "sku": "SKU can't contain $+;=%{}[]|\/@ ~#!^*&()?:'<>, characters"
+          "sku": "SKU can't contain $+;=%{}[]|\/@ ~!^*&()?:'<>, characters"
         },
         "placeholders": {
           "sku": "Enter item sku",
@@ -266,18 +265,18 @@
       },
 
       "editorialReviews-list": {
-        "subtitle": "Product Editorial Reviews",
+        "subtitle": "Item descriptions",
         "labels": {
-          "no-reviews": "No Editorial Reviews yet"
+          "no-reviews": "No item descriptions yet"
         }
       },
       "editorialReview-detail": {
-        "title": "Review",
-        "subtitle": "Product Review",
+        "title": "Description",
+        "subtitle": "Item description",
         "labels": {
           "language": "Language",
           "type": "Type",
-          "content": "Editorial Review content",
+          "content": "Description content",
           "select-language": "Select language"
         },
         "placeholders": {
@@ -292,9 +291,6 @@
       "exporter-list": {
         "title": "Data export",
         "subtitle": "Choose data format & start export"
-      },
-      "setting-dictionary-tax": {
-        "title": "Tax types"
       },
       "images": {
         "subtitle": "Manage images",
@@ -330,11 +326,9 @@
           "sorting-prompt": "Set the order how associated items appear sorted in web store. Drag and drop the products to change the order.",
           "picture": "Img",
           "product": "Product",
+          "priority": "Priority",
           "group": "Group"
         }
-      },
-      "setting-dictionary-association": {
-        "title": "Association Groups"
       },
       "seo-detail": {
         "subtitle": "Seo details",
@@ -404,8 +398,8 @@
         "title": "Properties"
       },
       "editorialReview": {
-        "blade-subtitle": "Product Editorial Reviews",
-        "title": "Editorial Reviews"
+        "blade-subtitle": "Item descriptions",
+        "title": "Descriptions"
       },
       "itemAsset": {
         "blade-subtitle": "item assets",
@@ -432,10 +426,6 @@
       }
     },
     "dialogs": {
-      "nothing-selected": {
-        "title": "Message",
-        "message": "Nothing selected. Check some Categories or Items first."
-      },
       "catalog-save": {
         "title": "Save changes",
         "message": "The catalog has been modified. Do you want to save changes?"
@@ -486,11 +476,11 @@
       },
       "review-save": {
         "title": "Save changes",
-        "message": "The Review has been modified. Do you want to save changes?"
+        "message": "The description has been modified. Do you want to save changes?"
       },
       "review-delete": {
         "title": "Delete confirmation",
-        "message": "Are you sure you want to delete this Editorial Review?"
+        "message": "Are you sure you want to delete this description?"
       },
       "association-delete": {
         "title": "Delete confirmation",
@@ -527,7 +517,7 @@
           "code": "Code"
         },
         "validations": {
-          "code": "Code can't contain $+;=%{}[]|\/@ ~#!^*&()?:'<>, characters"
+          "code": "Code can't contain $+;=%{}[]|\/@ ~!^*&()?:'<>, characters"
         },
         "placeholders": {
           "name": "Enter category name",
@@ -544,14 +534,14 @@
           "fill-properties-summary": "{{ count }} of {{total}} properties filled",
           "upload-images": "Upload images",
           "upload-images-summary": "{{ count }} image(s) uploaded",
-          "add-review": "Add editorial review",
-          "add-review-summary": "{{ count }} review(s) added",
+          "add-review": "Add description",
+          "add-review-summary": "{{ count }} description(s) added",
           "seo-information": "Define seo information",
           "seo-information-summary-defined": "Seo information defined",
           "seo-information-summary-undefined": "Seo information undefined"
         },
         "validations": {
-          "sku": "SKU can't contain $+;=%{}[]|\/@ ~#!^*&()?:'<>, characters",
+          "sku": "SKU can't contain $+;=%{}[]|\/@ ~!^*&()?:'<>, characters",
           "sku-required": "Required",
           "name-required": "Required"
         },
@@ -572,7 +562,7 @@
           "upload-images-summary": "{{ count }} image(s) uploaded"
         },
         "validations": {
-          "sku": "SKU can't contain $+;=%{}[]|\/@ ~#!^*&()?:'<>, characters",
+          "sku": "SKU can't contain $+;=%{}[]|\/@ ~!^*&()?:'<>, characters",
           "sku-required": "Required",
           "name-required": "Required"
         },
@@ -608,7 +598,11 @@
           "upload": "Upload Csv file",
           "upload-progress": "Upload progress",
           "map-columns": "Map columns",
-          "define-columns": "Define column mapping"
+          "define-columns": "Define column mapping",
+          "space": "Space",
+          "comma": "Comma",
+          "semicolon": "Semicolon",
+          "tab": "Tab"
         },
         "placeholders": {
           "delimiter": "Select ...",
@@ -626,7 +620,8 @@
       "start-import": "Start import",
       "clear-all": "Clear all",
       "add-property": "Add property",
-      "gallery": "Gallery"
+      "gallery": "Gallery",
+      "map": "Map"
     },
     "permissions": {
       "catalog-scope": {
