@@ -13,7 +13,6 @@ The repository contains a number of language packs (translations) for
 <li>Download ZIP.</li>
 <li>Extract any existing translation you want.</li>
 <li>Perform the resources translation. To translate you can use any editor or specialized tools like 
-<a href="https://poeditor.com">poeditor</a>, 
 <a href="https://crowdin.com">crowdin</a>, 
 <a href="www.getlocalization.com">getlocalization</a> 
 etc.
