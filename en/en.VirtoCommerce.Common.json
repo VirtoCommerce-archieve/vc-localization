@@ -2,8 +2,10 @@
   "platform": {
     "commands": {
       "add": "Add",
+      "activate": "Activate",
       "assign": "Assign",
       "cancel": "Cancel",
+      "clear": "Clear",
       "clear-all": "Clear all",
       "clone": "Clone",
       "close": "Close",
@@ -22,6 +24,7 @@
       "more": "More",
       "no": "No",
       "new-folder": "New folder",
+      "new-license": "Renew license",
       "ok": "Ok",
       "paste": "Paste",
       "pick-selected": "Pick selected",
@@ -46,8 +49,8 @@
       "add-new-property": "Add new property",
       "manage-type-properties": "Manage type properties",
       "manage-profile": "Manage profile",
-      "Minimize": "Minimize",
-      "Maximize": "Maximize",
+      "minimize": "Minimize",
+      "maximize": "Maximize",
       "stop-sending": "Stop sending",
       "set-active": "Set Active",
       "reject-user": "Reject user",
@@ -59,7 +62,9 @@
       "count": "Count"
     },
     "placeholders": {
-      "search-keyword": "Search keyword..."
+        "n-a": "N/A",
+        "no-file": "Choose file",
+        "search-keyword": "Search keyword..."
     },
     "dialogs": {
       "delete": {
@@ -104,6 +109,7 @@
       "placeholders": {
         "short-text": "Enter short text",
         "secure-string": "Enter secret text",
+        "url": "Enter URL",
         "long-text": "Enter long text",
         "integer": "Enter integer number",
         "number": "Enter decimal number",

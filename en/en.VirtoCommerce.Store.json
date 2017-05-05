@@ -76,7 +76,7 @@
           "store-url": "Enter URL",
           "secure-url": "Enter secure URL",
           "store-country": "Select ...",
-          "store-region": "Select ...",
+          "store-region": "Enter region",
           "store-email": "Enter value",
           "store-admin-email": "Enter value",
           "fulfillment-center": "Select...",
@@ -95,7 +95,7 @@
           "additional-languages": "Additional languages",
           "default-currency": "Default currency",
           "additional-currencies": "Additional currencies",
-          "linked-stores": "Linked stores. (Customers can use theirs credentials here.)"
+          "linked-stores": "Linked stores (Customers can use theirs credentials here)"
         },
         "placeholders": {
           "code": "Enter code",
@@ -155,12 +155,12 @@
       "storeNotificationsLogWidget": {
         "title": "Notification log",
         "blade-subtitle": "Notifications log",
-        "blade-title": "'Store {{id}} notification sending log'"
+        "blade-title": "Store {{id}} notification sending log"
       },
       "storeNotificationsWidget": {
         "title": "Notification",
         "blade-subtitle": "Notifications service",
-        "blade-title": "'Store {{id}} notification types list'"
+        "blade-title": "Store {{id}} notification types list"
       },
       "storePaymentsWidget": {
         "title": "Payment methods",

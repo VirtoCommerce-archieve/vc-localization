@@ -1,23 +1,34 @@
 ﻿{
-  "search": {
-    "blades": {
-      "rebuildIndex": {
-        "title": "Rebuild Search Index",
-        "labels": {
-          "progress": "Progress",
-          "job": "Job",
-          "state": "State"
+    "search": {
+        "blades": {
+            "index-detail": {
+                "title": "Search index",
+                "title-new": "Search index missing",
+                "subtitle": "Search index details",
+                "labels": {
+                    "no-index": "Index not found",
+                    "build-date": "Last indexed",
+                    "content": "Index content"
+                }
+            },
+            "index-progress": {
+                "labels": {
+                    "start": "Start",
+                    "end": "End",
+                    "errors": "Errors"
+                }
+            }
+        },
+       
+        "widgets": {
+            "index": {
+                "index-ok": "Indexed <span am-time-ago='indexDate'></span>",
+                "index-old": "Outdated. Index was built <span am-time-ago='indexDate'>",
+                "no-index": "Search index missing"
+            }
+        },
+        "commands": {
+            "rebuild-index": "Build Index"
         }
-      }
-    },
-    "dialogs": {
-      "rebuild-index": {
-        "title": "Rebuild Search Index",
-        "message": "Current search index will be deleted and built from scratch. Are you sure you want to rebuild the index?"
-      }
-    },
-    "commands": {
-      "rebuild-index": "Rebuild Index"
     }
-  }
 }

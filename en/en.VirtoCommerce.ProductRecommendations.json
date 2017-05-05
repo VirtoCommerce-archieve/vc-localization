@@ -1,0 +1,38 @@
+﻿{
+  "productRecommendationsModule": {
+    "widgets": {
+      "storeRecommendations": {
+        "title": "Recommendations"
+      }
+    },
+    "blades": {
+      "configuration": {
+        "title": "Product recommendations",
+        "subtitle": "Configure and start machine learning for recommendations",
+        "labels": {
+          "export-catalog": "Export catalog",
+          "export-usageData": "Export usage data",
+          "description-start": "Use Microsoft Cognitive Services portal to configure recommendations. Go to ",
+          "description-end":  " and create or select your project. Upload catalog & usage data and then build project to get recommendations." 
+        }
+      },
+      "catalogExport": {
+        "title": "Catalog to csv export"
+      },
+      "usageDataExport": {
+        "title": "Usage data to csv export"
+      },
+      "export": {
+        "labels": {
+          "start": "Start",
+          "end": "End",
+          "total": "Total count",
+          "processed": "Processed count",
+          "error-count": "Error count",
+          "errors": "Errors",
+          "download-url": "Download Url"
+        }
+      }
+    } 
+  }
+}

@@ -1,0 +1,50 @@
+﻿{
+  "catalog-publishing": {
+    "main-menu-title": "Channels",
+    "blades": {
+      "channel-list": {
+        "title": "Channels",
+        "labels": {
+          "name": "Name",
+          "catalog": "Catalog",
+          "readiness-percent": "Readiness percent"
+        }
+      },
+      "channel-details": {
+        "new-title": "New channel",
+        "title": "Channel",
+        "labels": {
+          "name": "Name",
+          "name-description": "This field accepts latin symbols, digits and underscore symbol",
+          "language": "Language",
+          "catalog": "Catalog",
+          "pricelist": "Pricelist",
+          "evaluator": "Evaluator type",
+          "evaluator-description": "The set of algorithms to evaluate product publishing readiness",
+          "evaluate": "Evaluate",
+          "name-pattern-error-message": "This field can contain only latin symbols and digits"
+        }
+      },
+      "channel-select": {
+        "title": "Select a channel",
+        "labels": {
+          "channels": "Select a channel"
+        }
+      },
+      "channel-evaluate-details": {
+        "title": "Channel evaluate progress"
+      }
+    },
+    "dialogs": {
+      "channel-delete": {
+        "title": "Delete confirmation",
+        "message": "Are you sure you want to delete selected Catalog Publishing Channels?"
+      }
+    },
+    "widgets": {
+      "catalog-publishing": {
+        "title": "Publishing readiness for channel "
+      }
+    }
+  }
+}

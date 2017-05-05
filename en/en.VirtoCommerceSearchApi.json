@@ -1,0 +1,27 @@
+﻿{
+    "searchApi": {
+        "filter-labels": {
+            "filter-priceless": "Without price",
+            "filter-withPrice": "Has price defined",
+            "filter-priceRange": "Price between",
+            "filter-lowStock": "Low on stock",
+            "filter-notActive": "Not active",
+            "filter-new": "<strong>Add new filter</strong>",
+            "unnamed-filter": "Unnamed filter",
+            "inactive": "Inactive",
+            "picture": "Pic",
+            "name": "Name",
+            "sku": "SKU"
+        },
+        "dialogs": {
+            "reindex": {
+                "title": "Build Search Index",
+                "msg1": "Choose how to update the Search Index. Options:",
+                "msg2": "Build: Update by indexing just missing or outdated data.",
+                "msg3": "Delete + build: Current search index will be deleted and built from scratch. Note that there WON'T BE ANY SEARCH RESULTS until the build process finishes.",
+                "index": "Build",
+                "reindex": "Delete + build"
+            }
+        }
+    }
+}
